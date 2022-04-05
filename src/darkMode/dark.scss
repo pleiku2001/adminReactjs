@@ -1,0 +1,40 @@
+.app.dark{
+    .navbar{
+        background-color: rgb(0, 0, 0);
+        color: white;
+    transition: all ease 2s;
+
+        .left_icon{
+            color: white;
+    transition: all ease 2s;
+            
+          &:hover{
+            //   background-color: rgb(125, 122, 122);
+          } 
+
+        }
+    }
+    .home{
+    transition: all ease 2s;
+
+        background-color: white;
+        .right{
+            background-color: rgb(43, 36, 36);
+            color: white;
+    transition: all ease 2s;
+
+        }
+        .left{
+            color: white;
+            background-color: rgb(40, 39, 39);
+    transition: all ease 2s;
+
+        }
+    }
+    .footer{
+    
+        transition: all ease 2s;
+        background-color: black;
+        color: white;
+    }
+}

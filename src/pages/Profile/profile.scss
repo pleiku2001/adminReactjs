@@ -1,0 +1,21 @@
+.profile{
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    h2{
+        margin: 10px;
+    }
+    input{
+        height: 30px;
+        width: 200px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+    button{
+        padding: 5px;
+        cursor: pointer;
+    }
+}

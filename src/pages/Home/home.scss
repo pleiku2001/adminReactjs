@@ -1,0 +1,110 @@
+.home{
+    background-color: black;
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+    transition: all ease 2s;
+
+    .right{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        text-align: center;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    transition: all ease 2s;
+
+        h2{
+            margin-top: 10px;
+        }
+        .table{
+            margin: 20px auto;
+            // background-color: brown;
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+              }
+              
+              td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+              }
+              
+              tr:nth-child(even) {
+                background-color: #959191;
+              }
+              img{
+                  width: 50px;
+                  height: 50px;
+              }
+        }
+        .link{
+            width: 100px;
+            margin: 10px auto;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(132, 135, 134);
+            }
+        }
+    }
+    .left{
+        background-color: rgb(208, 208, 208);
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        text-align: center;
+        border-top-right-radius: 20px;
+    transition: all ease 2s;
+    border-bottom-right-radius: 20px;
+
+        h2{
+            margin-top: 10px;
+        }
+        .table{
+            margin: 20px auto;
+            // background-color: brown;
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+              }
+              
+              td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+              }
+              
+              tr:nth-child(even) {
+                background-color: #959191;
+              }
+              img{
+                  width: 50px;
+                  height: 50px;
+              }
+        }
+        .link{
+            width: 100px;
+            margin: 10px auto;
+        }
+        button{
+            width: 100px;
+            margin: 10px auto;
+            height: 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(106, 110, 109);
+            }
+        }
+    }
+}
