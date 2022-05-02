@@ -1,5 +1,8 @@
 https://adminec-ca7b8.web.app/
 
+admin@gmail.com
+123456789
+
 React + Firebase + Scss + Mui + ...
 
 # Getting Started with Create React App
